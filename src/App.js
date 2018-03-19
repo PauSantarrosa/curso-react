@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Video from './Video';
@@ -10,10 +9,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <Header />
-        <p className="App-intro">
-         <Video />
-        </p>
+       <Header/>
+       <section className="App-section">
+       <Video />
+       </section>
       </div>
     );
   }
