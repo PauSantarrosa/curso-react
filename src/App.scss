@@ -3,3 +3,26 @@
     background-color: black;
     align-content: center;
 }
+
+.App-aboutPage{
+
+    text-align: center;
+    
+}
+
+.App-aboutTitle{
+    text-decoration-color: aqua;
+}
+
+.App-section {
+    display: flex;
+
+    .video {
+        flex:3
+    }
+
+    .sidebar {
+        flex:1;
+        flex-direction: column
+    }
+}

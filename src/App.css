@@ -2,3 +2,17 @@
   display: flex;
   background-color: black;
   align-content: center; }
+
+.App-aboutPage {
+  text-align: center; }
+
+.App-aboutTitle {
+  text-decoration-color: aqua; }
+
+.App-section {
+  display: flex; }
+  .App-section .video {
+    flex: 3; }
+  .App-section .sidebar {
+    flex: 1;
+    flex-direction: column; }
